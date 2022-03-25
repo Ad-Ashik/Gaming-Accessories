@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "KWG Orion P1",
+        "price": 1700,
+        "img": "https://www.startech.com.bd/image/cache/catalog/mouse/kwg/orion/orion-228x228.jpg"
+    },
+    {
+        "id": 2,
+        "name": "KWG Orion E2",
+        "price": 900,
+        "img": "https://www.startech.com.bd/image/cache/catalog/mouse/kwg/orion-e2/orion-228x228.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Rapoo V16 VPRO",
+        "price": 950,
+        "img": "https://www.startech.com.bd/image/cache/catalog/Accessories/Rapoo/Mouse/Rapoo%20V16/Rapoo%20V16-1-228x228.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Havit HV-H2031D",
+        "price": 1590,
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/havit/hv-h2032d/gamenote-hv-h2032d-1-228x228.jpg"
+    },
+    {
+        "id": 5,
+        "name": "HAVIT HV-H2262D",
+        "price": 1320,
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h257bt/h2575bt-1-228x228.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Lenovo XT92",
+        "price": 1150,
+        "img": "https://www.startech.com.bd/image/cache/catalog/earphone/lenovo/xt92/xt92-01-228x228.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Gamdias POSEIDON M2",
+        "price": 3350,
+        "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/gamdias/poseidon-m2/poseidon-m2-228x228.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Fantech P51 5 In 1",
+        "price": 4350,
+        "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/fantech/p51/p51-001-228x228.jpg"
+    },
+    {
+        "id": 9,
+        "name": "MeeTion MT-C505",
+        "price": 4950,
+        "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/meetion/mt-c505/mt-c505-01-228x228.jpg"
+    },
+    {
+        "id": 109,
+        "name": "MeeTion MT-CHR05",
+        "price": 14000,
+        "img": "https://www.startech.com.bd/image/cache/catalog/gaming-chair/meetion/mt-chr05/mt-chr05-01-black-228x228.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Antec T1 Chair",
+        "price": 21000,
+        "img": "https://www.startech.com.bd/image/cache/catalog/gaming-chair/antec/antec-t1/antec-t1-01-228x228.jpg"
+    },
+    {
+        "id": 12,
+        "name": "MeeTion MT-CHR15",
+        "price": 24500,
+        "img": "https://www.startech.com.bd/image/cache/catalog/gaming-chair/meetion/mt-chr15/mt-chr15-0010-228x228.jpg"
+    }
+]
