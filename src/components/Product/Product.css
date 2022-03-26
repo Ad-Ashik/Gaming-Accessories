@@ -17,7 +17,8 @@
 }
 .btn-cart{
     width: 100%;
-    background: #009688;
+    color: white;
+    background: #009659;
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -26,6 +27,6 @@
     padding: 15px;
 }
 .btn-cart:hover{
-    background-color: rgb(151, 151, 151);
+    background-color: #06ad6a;
     transition: .3s;
 }
