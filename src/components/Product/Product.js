@@ -10,7 +10,7 @@ const Product = (props) => {
                 <h3>{name}</h3>
                 <p>Price: {price}৳</p>
             </div>
-            <button className='btn-cart'>ADD TO CART</button>
+            <button onClick={() => props.addCart(props.product)} className='btn-cart'>ADD TO CART</button>
         </div>
     );
 };

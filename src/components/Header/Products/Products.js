@@ -1,15 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../../Product/Product';
+import Cart from '../Cart/Cart';
 import './Products.css';
 
 const Products = () => {
     const [products, setPorducts] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('gaming-api.json')
             .then(res => res.json())
             .then(data => setPorducts(data))
-    }, [])
+    }, []);
+
+    const addCart = (product) => {
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
 
     return (
         <div className='shop-container'>
@@ -18,11 +25,28 @@ const Products = () => {
                     products.map(product => <Product
                         key={product.id}
                         product={product}
+                        addCart={addCart}
                     ></Product>)
                 }
             </div>
             <div className="cart-container">
-                <h2>Select Items</h2>
+                <div>
+                    <div>
+                        <h2>Select Items</h2>
+                        <div className='item-container'>
+                            {
+                                cart.map(item => <Cart
+                                    key={item.id}
+                                    item={item}
+                                ></Cart>)
+                            }
+
+                        </div>
+
+                        <button onClick={addCart}>Choose 1 Selector</button>
+                        <button>Choose Again</button>
+                    </div>
+                </div>
             </div>
         </div>
     );

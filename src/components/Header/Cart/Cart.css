@@ -1,0 +1,14 @@
+.cart{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.item-img img{
+    width: 60px;
+}
+.item-details p{
+    color: green;
+}
