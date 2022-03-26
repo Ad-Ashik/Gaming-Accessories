@@ -6,6 +6,7 @@ import './Products.css';
 const Products = () => {
     const [products, setPorducts] = useState([]);
     const [cart, setCart] = useState([]);
+    // const [select, setSelect] = useState([]);
 
     useEffect(() => {
         fetch('gaming-api.json')
@@ -18,6 +19,16 @@ const Products = () => {
         setCart(newCart);
     }
 
+    const random = () => {
+        const genaratNumber = Math.floor(Math.random() * cart.length);
+        const getName = cart[genaratNumber].name;
+        alert("Select Item Name: " + getName);
+    }
+
+    const remove = () => {
+        const clear = cart;
+        console.log(clear + "data clear")
+    }
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -40,11 +51,11 @@ const Products = () => {
                                     item={item}
                                 ></Cart>)
                             }
-
+                            <button onClick={random} className="btn-cart btn-select">Choose 1 Selector</button>
+                            <button onClick={remove} className="btn-cart btn-select">Choose Again</button>
                         </div>
 
-                        <button onClick={addCart}>Choose 1 Selector</button>
-                        <button>Choose Again</button>
+
                     </div>
                 </div>
             </div>

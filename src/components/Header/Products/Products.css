@@ -11,3 +11,8 @@
     grid-gap: 30px;
     margin: 90px;
 }
+.btn-select{
+    position: relative;
+    border-radius: 5px;
+    margin: 5px 0;
+}
