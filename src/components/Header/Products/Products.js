@@ -25,9 +25,15 @@ const Products = () => {
         alert("Select Item Name: " + getName);
     }
 
+
     const remove = () => {
-        const clear = cart;
-        console.log(clear + "data clear")
+        const index = cart.indexOf(cart.length);
+
+        if (index > -1) {
+            cart.splice(index, 1);
+        }
+        cart(index)
+        // setCart(clear)
     }
     return (
         <div className='shop-container'>
