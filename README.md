@@ -1,7 +1,7 @@
 # Gaming Accessories Buy
 
-[Gaming Accessories Buy](https://github.com/facebook/create-react-app).
+## [Gaming Accessories Buy](https://gaming-accessorie-buy.netlify.app/).
 
 
-Live site link (http://localhost:3000) to visite my site.
+Live site link https://gaming-accessorie-buy.netlify.app/ to visite my site.
 

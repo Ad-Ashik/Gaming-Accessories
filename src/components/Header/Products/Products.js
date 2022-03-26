@@ -25,15 +25,8 @@ const Products = () => {
         alert("Select Item Name: " + getName);
     }
 
-
     const remove = () => {
-        const index = cart.indexOf(cart.length);
-
-        if (index > -1) {
-            cart.splice(index, 1);
-        }
-        cart(index)
-        // setCart(clear)
+        setCart([])
     }
     return (
         <div className='shop-container'>
@@ -60,8 +53,6 @@ const Products = () => {
                             <button onClick={random} className="btn-cart btn-select">Choose 1 Selector</button>
                             <button onClick={remove} className="btn-cart btn-select">Choose Again</button>
                         </div>
-
-
                     </div>
                 </div>
             </div>
